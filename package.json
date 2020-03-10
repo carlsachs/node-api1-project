@@ -4,7 +4,7 @@
   "description": "- Building a RESTful API.\r - Performing CRUD operations.\r - Writing API endpoints.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon index.jss"
   },
   "repository": {
     "type": "git",
@@ -19,5 +19,8 @@
   "homepage": "https://github.com/carlsachs/node-api1-project#readme",
   "devDependencies": {
     "nodemon": "^2.0.2"
+  },
+  "dependencies": {
+    "shortid": "^2.2.15"
   }
 }
